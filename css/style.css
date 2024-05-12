@@ -1,0 +1,11 @@
+header img {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw; /* Full viewport width */
+    height: 100vh; /* Full viewport height */
+    z-index: -2; /* Send the image behind other content */
+    object-fit: cover; /* Maintain aspect ratio while covering the container */
+    object-position: left center; /* Center the visible part of the image */
+    transition: 0.3s; /* Optional: Add transition effects */
+}
